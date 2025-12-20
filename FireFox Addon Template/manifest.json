@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Firefox Extension Template",
+  "version": "1.0",
+  "description": "A basic starter template for a Firefox extension.",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "My Extension",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
